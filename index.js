@@ -33,7 +33,7 @@ $(".gagne").on("click", function() {
   } else if (score == 3) {
     $(".scoreFinal").text("En fait vous avez eu 3/6. Bel effort tout de même.")
   } else if (score == 2) {
-    $(".scoreFinal").text("Mais en fait vous avez eu 2/5. Raspoutine vous aurait mangé tout cru")
+    $(".scoreFinal").text("Mais en fait vous avez eu 2/5. Raspoutine vous aurait mangé tout cru.")
   }
   else if (score == 1) {
     $(".scoreFinal").text("Mais en fait vous avez eu 1/5. On va conspirer pour que ça reste entre nous.")
