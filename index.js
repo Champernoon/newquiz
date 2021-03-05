@@ -44,7 +44,7 @@ $(".restart").on("click", score = 0)
 
 
 var thatone = Math.floor(Math.random() * 6)
-var livres = ["https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/FROMHELL-UNEAUTOPSIEDEJACKLE-MOOREA--DELCOURT-2000-1/id/64658/tri/%2A/expressionRecherche/from+hell?id_profil=1, 
+var livres = ["https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/FROMHELL-UNEAUTOPSIEDEJACKLE-MOOREA--DELCOURT-2000-1/id/64658/tri/%2A/expressionRecherche/from+hell?id_profil=1", 
               "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/OPERATIONLUNE--KARELW--POINTDUJOUR-2018-4/id/250816/tri/%2A/expressionRecherche/op%C3%A9ration+lune?id_profil=1", 
               "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/NOUSSOMMESTOUSDESCANNIBALES--LEVISTRAUSSC--EDDUSEUIL-2013-1/id/212170/tri/%2A/expressionRecherche/cannibales+anthropologie?id_profil=1", 
               "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/RASPOUTINE--TROYATH--FLAMMARION-1996-1/id/8700/tri/%2A/expressionRecherche/raspoutine+troyat?id_profil=1", 
