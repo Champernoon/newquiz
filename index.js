@@ -44,5 +44,9 @@ $(".restart").on("click", score = 0)
 
 
 var thatone = Math.floor(Math.random() * 6)
-var livres = ["https://opac-gpsea-prod.infocom94.fr/recherche/viewnotice/clef/FROMHELL-UNEAUTOPSIEDEJACKLE-MOOREA--DELCOURT-2000-1/id/64658/tri/%2A/expressionRecherche/from+hell?id_profil=1", "https://opac-gpsea-prod.infocom94.fr/recherche/viewnotice/clef/OPERATIONLUNE--KARELW--POINTDUJOUR-2018-4/id/250816/tri/%2A/expressionRecherche/op%C3%A9ration+lune?id_profil=1", "https://opac-gpsea-prod.infocom94.fr/recherche/viewnotice/clef/CANNIBALES-HISTOIREETBIZARRERIE-MONESTIERM--LECHERCHEMIDI-2000-1/id/353105/tri/%2A/expressionRecherche/cannibalisme?id_profil=1", "https://opac-gpsea-prod.infocom94.fr/recherche/viewnotice/clef/RASPOUTINE--TROYATH--FLAMMARION-1996-1/id/8700/tri/%2A/expressionRecherche/raspoutine?id_profil=1", "https://opac-gpsea-prod.infocom94.fr/recherche/viewnotice/clef/LESCHEVRESDUPENTAGONE--HESLOVG--WESGATEFILMSERVICES-2009-4/id/131137/tri/%2A/expressionRecherche/ch%C3%A8vres+du+pentagone?id_profil=1"]
+var livres = ["https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/FROMHELL-UNEAUTOPSIEDEJACKLE-MOOREA--DELCOURT-2000-1/id/64658/tri/%2A/expressionRecherche/from+hell?id_profil=1, 
+              "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/OPERATIONLUNE--KARELW--POINTDUJOUR-2018-4/id/250816/tri/%2A/expressionRecherche/op%C3%A9ration+lune?id_profil=1", 
+              "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/NOUSSOMMESTOUSDESCANNIBALES--LEVISTRAUSSC--EDDUSEUIL-2013-1/id/212170/tri/%2A/expressionRecherche/cannibales+anthropologie?id_profil=1", 
+              "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/RASPOUTINE--TROYATH--FLAMMARION-1996-1/id/8700/tri/%2A/expressionRecherche/raspoutine+troyat?id_profil=1", 
+              "https://mediatheques.sudestavenir.fr/recherche/viewnotice/clef/LESCHEVRESDUPENTAGONE--HESLOVG--WESGATEFILMSERVICES-2009-4/id/131137/tri/%2A/expressionRecherche/les+ch%C3%A8vres+du+pentagone?id_profil=1"]
 $(".hasard").attr("href", livres[thatone])
